@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		731026672ADF9DD7006E547F /* SpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731026662ADF9DD7006E547F /* SpinButton.swift */; };
+		732569F32ADF508800D594D9 /* AmountCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732569F22ADF508800D594D9 /* AmountCapsule.swift */; };
+		7328C2692ADF3AFC00BDAA65 /* FortuneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328C2682ADF3AFC00BDAA65 /* FortuneApp.swift */; };
+		7328C26D2ADF3AFD00BDAA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7328C26C2ADF3AFD00BDAA65 /* Assets.xcassets */; };
+		7328C2702ADF3AFD00BDAA65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7328C26F2ADF3AFD00BDAA65 /* Preview Assets.xcassets */; };
+		7333C4032AE0927B0043D866 /* ModalWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333C4022AE0927B0043D866 /* ModalWindow.swift */; };
+		7333C4052AE095890043D866 /* ModalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333C4042AE095890043D866 /* ModalContent.swift */; };
+		733E712D2ADF967E002676CD /* SlotMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E712C2ADF967E002676CD /* SlotMachine.swift */; };
+		733E712F2ADF96F5002676CD /* ReelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733E712E2ADF96F5002676CD /* ReelContainer.swift */; };
+		73DE70F02ADF3B51005F0360 /* rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70EA2ADF3B51005F0360 /* rise.mp3 */; };
+		73DE70F12ADF3B51005F0360 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70EB2ADF3B51005F0360 /* win.mp3 */; };
+		73DE70F22ADF3B51005F0360 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70EC2ADF3B51005F0360 /* lose.mp3 */; };
+		73DE70F32ADF3B51005F0360 /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70ED2ADF3B51005F0360 /* chime.mp3 */; };
+		73DE70F42ADF3B51005F0360 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70EE2ADF3B51005F0360 /* score.mp3 */; };
+		73DE70F52ADF3B51005F0360 /* spin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73DE70EF2ADF3B51005F0360 /* spin.mp3 */; };
+		73DE70FE2ADF3C83005F0360 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE70FD2ADF3C83005F0360 /* GameView.swift */; };
+		73DE71002ADF3CAF005F0360 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE70FF2ADF3CAF005F0360 /* AppConstants.swift */; };
+		73DE71022ADF3CDD005F0360 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71012ADF3CDD005F0360 /* ImageExtension.swift */; };
+		73DE71042ADF3D3C005F0360 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71032ADF3D3C005F0360 /* TextExtension.swift */; };
+		73DE71062ADF3D86005F0360 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71052ADF3D86005F0360 /* ViewExtension.swift */; };
+		73DE71082ADF3D9D005F0360 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71072ADF3D9D005F0360 /* AudioPlayer.swift */; };
+		73DE710A2ADF3E01005F0360 /* MixedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71092ADF3E01005F0360 /* MixedGradient.swift */; };
+		73DE710C2ADF3E2C005F0360 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE710B2ADF3E2C005F0360 /* GameStore.swift */; };
+		73DE710F2ADF3E93005F0360 /* HeaderLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE710E2ADF3E93005F0360 /* HeaderLogo.swift */; };
+		73DE71112ADF3F36005F0360 /* PointsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE71102ADF3F36005F0360 /* PointsTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		731026662ADF9DD7006E547F /* SpinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinButton.swift; sourceTree = "<group>"; };
+		732569F22ADF508800D594D9 /* AmountCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCapsule.swift; sourceTree = "<group>"; };
+		7328C2652ADF3AFC00BDAA65 /* Fortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7328C2682ADF3AFC00BDAA65 /* FortuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneApp.swift; sourceTree = "<group>"; };
+		7328C26C2ADF3AFD00BDAA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7328C26F2ADF3AFD00BDAA65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7333C4022AE0927B0043D866 /* ModalWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWindow.swift; sourceTree = "<group>"; };
+		7333C4042AE095890043D866 /* ModalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalContent.swift; sourceTree = "<group>"; };
+		733E712C2ADF967E002676CD /* SlotMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachine.swift; sourceTree = "<group>"; };
+		733E712E2ADF96F5002676CD /* ReelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelContainer.swift; sourceTree = "<group>"; };
+		73DE70EA2ADF3B51005F0360 /* rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rise.mp3; sourceTree = "<group>"; };
+		73DE70EB2ADF3B51005F0360 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		73DE70EC2ADF3B51005F0360 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		73DE70ED2ADF3B51005F0360 /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		73DE70EE2ADF3B51005F0360 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = score.mp3; sourceTree = "<group>"; };
+		73DE70EF2ADF3B51005F0360 /* spin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spin.mp3; sourceTree = "<group>"; };
+		73DE70F62ADF3C1D005F0360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		73DE70FD2ADF3C83005F0360 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		73DE70FF2ADF3CAF005F0360 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		73DE71012ADF3CDD005F0360 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		73DE71032ADF3D3C005F0360 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		73DE71052ADF3D86005F0360 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		73DE71072ADF3D9D005F0360 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		73DE71092ADF3E01005F0360 /* MixedGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedGradient.swift; sourceTree = "<group>"; };
+		73DE710B2ADF3E2C005F0360 /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		73DE710E2ADF3E93005F0360 /* HeaderLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLogo.swift; sourceTree = "<group>"; };
+		73DE71102ADF3F36005F0360 /* PointsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7328C2622ADF3AFC00BDAA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7328C25C2ADF3AFC00BDAA65 = {
+			isa = PBXGroup;
+			children = (
+				7328C2672ADF3AFC00BDAA65 /* Fortune */,
+				7328C2662ADF3AFC00BDAA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7328C2662ADF3AFC00BDAA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7328C2652ADF3AFC00BDAA65 /* Fortune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7328C2672ADF3AFC00BDAA65 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70F82ADF3C42005F0360 /* Features */,
+				73DE70F72ADF3C3A005F0360 /* Global */,
+				73DE70F62ADF3C1D005F0360 /* Info.plist */,
+				7328C26C2ADF3AFD00BDAA65 /* Assets.xcassets */,
+				73DE70E92ADF3B3E005F0360 /* Sounds */,
+				7328C26E2ADF3AFD00BDAA65 /* Preview Content */,
+				7328C2682ADF3AFC00BDAA65 /* FortuneApp.swift */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		7328C26E2ADF3AFD00BDAA65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7328C26F2ADF3AFD00BDAA65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73DE70E92ADF3B3E005F0360 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70ED2ADF3B51005F0360 /* chime.mp3 */,
+				73DE70EC2ADF3B51005F0360 /* lose.mp3 */,
+				73DE70EA2ADF3B51005F0360 /* rise.mp3 */,
+				73DE70EE2ADF3B51005F0360 /* score.mp3 */,
+				73DE70EF2ADF3B51005F0360 /* spin.mp3 */,
+				73DE70EB2ADF3B51005F0360 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		73DE70F72ADF3C3A005F0360 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70FB2ADF3C64005F0360 /* Components */,
+				73DE70FA2ADF3C5D005F0360 /* Services */,
+				73DE70F92ADF3C55005F0360 /* Utilities */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		73DE70F82ADF3C42005F0360 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70FC2ADF3C6E005F0360 /* Game */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		73DE70F92ADF3C55005F0360 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70FF2ADF3CAF005F0360 /* AppConstants.swift */,
+				73DE71012ADF3CDD005F0360 /* ImageExtension.swift */,
+				73DE71032ADF3D3C005F0360 /* TextExtension.swift */,
+				73DE71052ADF3D86005F0360 /* ViewExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		73DE70FA2ADF3C5D005F0360 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				73DE71072ADF3D9D005F0360 /* AudioPlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		73DE70FB2ADF3C64005F0360 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				73DE71092ADF3E01005F0360 /* MixedGradient.swift */,
+				732569F22ADF508800D594D9 /* AmountCapsule.swift */,
+				733E712E2ADF96F5002676CD /* ReelContainer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		73DE70FC2ADF3C6E005F0360 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				73DE70FD2ADF3C83005F0360 /* GameView.swift */,
+				73DE710B2ADF3E2C005F0360 /* GameStore.swift */,
+				73DE710D2ADF3E84005F0360 /* subviews */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		73DE710D2ADF3E84005F0360 /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+				73DE710E2ADF3E93005F0360 /* HeaderLogo.swift */,
+				73DE71102ADF3F36005F0360 /* PointsTracker.swift */,
+				733E712C2ADF967E002676CD /* SlotMachine.swift */,
+				731026662ADF9DD7006E547F /* SpinButton.swift */,
+				7333C4022AE0927B0043D866 /* ModalWindow.swift */,
+				7333C4042AE095890043D866 /* ModalContent.swift */,
+			);
+			path = subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7328C2642ADF3AFC00BDAA65 /* Fortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7328C2732ADF3AFD00BDAA65 /* Build configuration list for PBXNativeTarget "Fortune" */;
+			buildPhases = (
+				7328C2612ADF3AFC00BDAA65 /* Sources */,
+				7328C2622ADF3AFC00BDAA65 /* Frameworks */,
+				7328C2632ADF3AFC00BDAA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fortune;
+			productName = Fortune;
+			productReference = 7328C2652ADF3AFC00BDAA65 /* Fortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7328C25D2ADF3AFC00BDAA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7328C2642ADF3AFC00BDAA65 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7328C2602ADF3AFC00BDAA65 /* Build configuration list for PBXProject "Fortune" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7328C25C2ADF3AFC00BDAA65;
+			productRefGroup = 7328C2662ADF3AFC00BDAA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7328C2642ADF3AFC00BDAA65 /* Fortune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7328C2632ADF3AFC00BDAA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DE70F52ADF3B51005F0360 /* spin.mp3 in Resources */,
+				7328C2702ADF3AFD00BDAA65 /* Preview Assets.xcassets in Resources */,
+				73DE70F42ADF3B51005F0360 /* score.mp3 in Resources */,
+				73DE70F22ADF3B51005F0360 /* lose.mp3 in Resources */,
+				7328C26D2ADF3AFD00BDAA65 /* Assets.xcassets in Resources */,
+				73DE70F32ADF3B51005F0360 /* chime.mp3 in Resources */,
+				73DE70F02ADF3B51005F0360 /* rise.mp3 in Resources */,
+				73DE70F12ADF3B51005F0360 /* win.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7328C2612ADF3AFC00BDAA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333C4052AE095890043D866 /* ModalContent.swift in Sources */,
+				732569F32ADF508800D594D9 /* AmountCapsule.swift in Sources */,
+				7333C4032AE0927B0043D866 /* ModalWindow.swift in Sources */,
+				73DE71062ADF3D86005F0360 /* ViewExtension.swift in Sources */,
+				73DE710C2ADF3E2C005F0360 /* GameStore.swift in Sources */,
+				733E712F2ADF96F5002676CD /* ReelContainer.swift in Sources */,
+				73DE70FE2ADF3C83005F0360 /* GameView.swift in Sources */,
+				73DE71002ADF3CAF005F0360 /* AppConstants.swift in Sources */,
+				73DE710A2ADF3E01005F0360 /* MixedGradient.swift in Sources */,
+				73DE71112ADF3F36005F0360 /* PointsTracker.swift in Sources */,
+				73DE710F2ADF3E93005F0360 /* HeaderLogo.swift in Sources */,
+				731026672ADF9DD7006E547F /* SpinButton.swift in Sources */,
+				73DE71042ADF3D3C005F0360 /* TextExtension.swift in Sources */,
+				7328C2692ADF3AFC00BDAA65 /* FortuneApp.swift in Sources */,
+				73DE71022ADF3CDD005F0360 /* ImageExtension.swift in Sources */,
+				73DE71082ADF3D9D005F0360 /* AudioPlayer.swift in Sources */,
+				733E712D2ADF967E002676CD /* SlotMachine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7328C2712ADF3AFD00BDAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7328C2722ADF3AFD00BDAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7328C2742ADF3AFD00BDAA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fortune/Preview Content\"";
+				DEVELOPMENT_TEAM = 629HHFAF66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fortune/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jso.Fortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7328C2752ADF3AFD00BDAA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fortune/Preview Content\"";
+				DEVELOPMENT_TEAM = 629HHFAF66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fortune/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jso.Fortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7328C2602ADF3AFC00BDAA65 /* Build configuration list for PBXProject "Fortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328C2712ADF3AFD00BDAA65 /* Debug */,
+				7328C2722ADF3AFD00BDAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7328C2732ADF3AFD00BDAA65 /* Build configuration list for PBXNativeTarget "Fortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7328C2742ADF3AFD00BDAA65 /* Debug */,
+				7328C2752ADF3AFD00BDAA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7328C25D2ADF3AFC00BDAA65 /* Project object */;
+}
